@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include komoditas *.css
+recursive-include komoditas *.csv
+recursive-include komoditas *.html
+recursive-include komoditas *.ico
+recursive-include komoditas *.js
+recursive-include komoditas *.json
+recursive-include komoditas *.md
+recursive-include komoditas *.png
+recursive-include komoditas *.py
+recursive-include komoditas *.svg
+recursive-include komoditas *.txt
+recursive-exclude komoditas *.pyc
